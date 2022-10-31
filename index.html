@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<meta>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+        crossorigin="anonymous"
+    ></link>
+    <link
+        href="./css/styles.css"
+        rel="stylesheet"
+    ></link>
+</meta>
+
+<head>
+    <title>HealthShop</title>
+</head>
+
+<body>
+    <div class="container g-0">
+        <!-- navbar https://getbootstrap.com/docs/5.2/components/navbar/ -->
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    HealthShop
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-center" id="navbarContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">
+                                Página Inicial
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./vestuario-masculino.html">
+                                Vestuário Masculino
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./vestuario-feminino.html">
+                                Vestuário Feminino
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./alimentacao-saudavel.html">
+                                Alimentação Saudável
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <!-- carousel https://getbootstrap.com/docs/5.2/components/carousel/ -->
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/vestuario-masculino.webp" class="d-block w-100" alt="Vestuário Masculino">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Vestuário Masculino</h5>
+                        <p>Um bom conforto para o melhor treino</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/vestuario-feminino.webp" class="d-block w-100" alt="Vestuário Feminino">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Vestuário Feminino</h5>
+                        <p>Sente-te livre como nunca te sentiste</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/comida-saudavel.webp" class="d-block w-100" alt="Comida Saudável">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Alimentação Saudável</h5>
+                        <p>Alimentos 100% naturais que te fazem 100% mais forte</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">prev</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">next</span>
+            </button>
+        </div>
+    </div>
+</body>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+></script>
+
+</html>

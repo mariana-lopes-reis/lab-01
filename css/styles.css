@@ -1,0 +1,64 @@
+.carousel-item {
+    height: auto;
+    width: 100%;
+} 
+
+.carousel-item img {
+    height: auto;
+    width: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(128, 128, 128, 0.25);
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.header {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #780000!important;
+}
+
+.navbar {
+    background-color: #ffd7d7;
+}
+
+.navbar-brand {
+    color: #780000!important;
+    font-weight: 900!important;
+}
+
+.nav-link {
+    color: #780000!important;
+    font-weight: 600!important;
+}
+
+.nav-link.active {
+    color: #220000!important;
+    font-weight: 700!important;
+}
+
+.container {
+    background-color: #fff1f1;
+}
+
+.page-item .page-link {
+    background-color: #ffd7d7!important;
+    color: #780000!important;
+}
+
+.page-item.active .page-link {
+    background-color: #780000!important;
+    color: #ffd7d7!important;
+    border-color: #780000!important;
+}
